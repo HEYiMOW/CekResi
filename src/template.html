@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Resi Api</title>
+</head>
+<body>
+    <div class="header">Cek Resi</div>
+    <br>
+    <h1 class="text-center">Ayo Cek Resi Pengirimanmu!</h1>
+    <text-desc></text-desc>
+    <form>
+        <input class="search" type="text" placeholder="Cari Resi..." required id="awb_input">	
+        <br>
+        <br>
+        <select class="form-select" id="courier_input">
+            <option value="">Pilih Kurir</option>
+            <option value="jne">JNE</option>
+            <option value="jnt">JNT</option>
+            <option value="pos">POS</option>
+            <option value="sicepat">SICEPAT</option>
+            <option value="tiki">TIKI</option>
+            <option value="anteraja">ANTER AJA</option>
+            <option value="wahana">WAHANA</option>
+            <option value="ninja">NINJA</option>
+            <option value="lion">LION</option>
+            <option value="ide">ID EXPRESS</option>
+            <option value="spx">SHOPEE EXPRESS</option>
+        </select>  
+        <br>
+        <input class="button" type="button" value="Search" id="search-button">		
+  
+</form>
+      <hr>
+
+      <div class="row" id="resi-status">
+        
+      </div>
+
+      <div class="row" id="resi-history">
+        
+      </div>
+</body>
+<script src="./dist/bundle.js"></script>
+</html>
